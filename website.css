@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+li {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head p {
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80vh;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 50px;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.nav-item a:hover {
+    color: aqua;
+    border: #2e2e2e solid 1px;
+    transform: translateY(-10px);
+}
+
+.nav-item a {
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+.dropdown-menu a {
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.header-main {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 1px 0 3px white;
+}
+
+.header-main h1 {
+    font-size: 7rem;
+    font-family: 'Lora', serif;
+}
+
+.header-main h2 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    font-family: 'Lora', serif;
+}
+
+.header-main h4 {
+    line-height: 1.4;
+    margin-top: 15px 0;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+.act {
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid rgb(173, 6, 142);
+    border-radius: 60px;
+    padding: 13px 35px;
+    font-size: 1rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.act:hover {
+    border: 2px solid aquamarine;
+    background: aquamarine;
+    transition: 1s;
+    color: rgb(9, 0, 0);
+    text-decoration: none;
+    font-weight: 900;
+    transform: scale(1.2);
+    color: black;
+    font-family: 'Lora', serif;
+    font-style: normal;
+}
+
+.navlink {
+    margin-left: 35%;
+}
+
+.navlink ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 4px;
+    position: relative;
+    margin-top: 18px;
+    margin-left: 15px;
+    align-content: center;
+}
+
+.navlink ul li a {
+    font-size: 3rem;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.navlink ul li a i {
+    transition: transform 0.3s;
+}
+
+.navlink ul li a i:hover {
+    transform: scale(1.5);
+    color: orangered;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/*******About css start*******/
+.about {
+    background: linear-gradient(40deg, rgb(198, 167, 226) 60.5%, rgb(150, 218, 195) 0%);
+    padding-top: 15px;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.head h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Lora', serif;
+}
+
+.info {
+    border: 2px solid #2e2e2e;
+    border-radius: 15px;
+    margin-top: 55px;
+    margin-left: 30%;
+    width: 600px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.info p {
+    font-family: 'Lora', serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.info:hover {
+    box-shadow: 0 5px 20px 10px rgba(18, 7, 7, 0.5);
+    transform: translateX(14px);
+}
+
+/*******About css start*******/
+
+/*****Service css Start*****/
+.service {
+    background: linear-gradient(330deg, #79c8dc 49%, rgb(236, 169, 169) 0);
+    padding-top: 35px;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+
+.extra-div {
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.extra {
+    background: whitesmoke;
+    border: medium none;
+    padding: 30px 25px !important;
+    border-radius: 45px;
+    transition: 0.3s;
+}
+
+.extra h2 {
+    font-size: 1.5rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.extra:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0.2, 0.5);
+    transform: translateY(-25px);
+}
+
+.top {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+/*****Service css End*****/
+
+/*****Team CSS Start*****/
+.team {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background: linear-gradient(40deg, #a6dfee 51.5%, rgb(210, 222, 105) 0);
+}
+
+.card {
+    height: 640px;
+    background-color: rgb(121, 179, 188);
+    border-radius: 40px;
+    margin-top: 75px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px 12px rgba(1, 1, 0.8, 0.5);
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+
+/*****Team CSS End*****/
+
+/*****Contact CSS Start*****/
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    position: relative;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(330deg, #79c8dc 50%, rgb(236, 169, 169) 0);
+    z-index: -1;
+}
+
+.form-button button {
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+}
+
+.form-button button:hover {
+    color: #50d1c0;
+}
+
+form:hover .form-button button {
+    background: #fff;
+    color: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+::placeholder {
+    font-size: 0.9rem;
+}
+
+#myBtn {
+    display: block;
+    border: none;
+    z-index: 99;
+    color: #fff;
+    background-color: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+
+#myBtn:hover {
+    background: #606060;
+}
+
+/*****Contact CSS End*****/
+
+
+/*****media  Queries for tab*****/
+
+@media(max-width:990px) {
+    .nav-item {
+        text-align: center !important;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .header h4 {
+        font-weight: 500;
+        letter-spacing: .75px;
+        padding-top: 20px;
+    }
+
+    .navbar button {
+        border: 1px solid #fff !important;
+        border-radius: 15px;
+    }
+
+    .navbar-toggler-icon {
+        color: aliceblue !important;
+        font-size: 1.25rem !important;
+        font-weight: 800 !important;
+    }
+
+    .navlink {
+        margin-left: 30%;
+    }
+
+    .info {
+        margin-left: 23vw;
+        margin-top: 60px;
+    }
+
+    .info p {
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .about,
+    .service,
+    .team {
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .cont-main {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .r1 {
+        /* display: inline-flex; */
+        margin-right: 2px !important;
+        margin-left: 2px !important;
+    }
+
+    /* .colu{
+        margin-left: 1.5rem;
+    } */
+    .colu3 {
+        margin-left: 10%;
+    }
+
+    .colu2 {
+        position: absolute;
+        left: 36%;
+    }
+
+    .colu1 {
+        position: absolute;
+        left: 65%;
+    }
+
+    .card {
+        width: 16.5rem !important;
+        height: 725px;
+    }
+
+    .card-title {
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+    .card-text {
+        font-size: 1.10rem;
+        font-weight: 600;
+    }
+
+    .form-control {
+        width: 170%;
+    }
+
+    .col-main {
+        margin-left: 5% !important;
+    }
+}
+
+
+
+
+/*******Media Queries for mobile******/
+@media(max-width:768px) {
+    .header-main {
+        text-shadow: 0 0 5px;
+    }
+
+    .header-main h2 {
+        font-size: 3.8rem;
+    }
+
+    .header-main h1 {
+        font-size: 5rem;
+    }
+
+    .header-main h4 {
+        font-size: 1rem;
+        text-shadow: 0;
+    }
+
+    .navlink {
+        margin-left: 8%;
+    }
+
+    .navlink ul li a {
+        font-size: 2rem;
+    }
+
+    .act {
+        padding: 7px 15px;
+        font-size: .85rem;
+    }
+
+    .info {
+        margin-top: 13%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .info p{
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+    .head1 h1{
+        font-size: 2.05rem;
+        font-weight: 900;
+    }
+    .head1 p{
+        font-size: 1rem;
+    }
+    .extra-div{
+        width: 80%;
+        margin: 20% 10%;
+        padding: 0;
+    }
+    .extra{
+        margin-top: 15px;
+    }
+    .colu2{
+        position: relative;
+        left: 10%;
+    }
+    .colu1{
+        position: relative;
+        left: 10%;
+    }
+    .para h1{
+        font-size: 4rem;
+        font-weight: 900;
+    }
+    .para p{
+        font-size: 1.05rem;
+        font-weight: 400;
+    }
+    .form-control{
+        width: 110%;
+    }
+    .col-main{
+        margin-top: 10%;
+        margin-left: 1%;
+        padding-top: 10%;
+    }
+    .btn{
+        margin-left: 30%;
+    }
+
+}
